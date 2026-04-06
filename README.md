@@ -12,29 +12,28 @@ The project follows a **complete data science lifecycle**, from raw data integra
 ## Project Structure
 
 project/
-│
 ├── data/
-│   ├── raw/
-│   │   ├── raw_file_1.csv
-│   │   ├── raw_file_2.csv
-│   │   └── raw_file_3.csv
-│   │
-│   ├── processed/
-│   │   └── customer_360.csv
-│   │
-│   └── output/
-│       └── new_predictions.csv
+│ ├── raw/
+│ │ ├── CustomerDemographics.xlsx
+│ │ ├── CustomerBehaviorData.xlsx
+│ │ └── CreditConsumptionData.xlsx
+│ │
+│ ├── processed/
+│ │ └── customer_360.csv
+│ │
+│ └── output/
+│ └── new_predictions.csv
 │
 ├── notebooks/
-│   └── customer_prediction.ipynb
+│ └── customer_credit_regression_pipeline.ipynb
 │
 ├── visuals/
-│   ├── model_comparison.png
-│   ├── line_chart.png
-│   └── scatter_plot.png
+│ ├── model_comparison.png
+│ ├── line_chart.png
+│ └── scatter_plot.png
 │
 ├── model/
-│   └── model.joblib
+│ └── lr_model_pipeline.pkl
 │
 └── README.md
 
