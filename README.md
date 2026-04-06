@@ -55,9 +55,9 @@ A subset of customers does not have recorded credit consumption values.
 
 These are the original datasets used in this project:
 
-- <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/CreditConsumptionData.xlsx">Credit-Consumption-Data</a>
-- <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/CustomerBehaviorData.xlsx">Customer-Behavior-Data</a>
-- <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/CustomerBehaviorData.xlsx">Customer-Demographics</a>
+- <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/CreditConsumptionData.xlsx">Credit_Consumption_Data</a>
+- <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/CustomerBehaviorData.xlsx">Customer_Behavior_Data</a>
+- <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/CustomerBehaviorData.xlsx">Customer_Demographics</a>
 
 ---
 
@@ -67,7 +67,7 @@ These are the original datasets used in this project:
 * Ensured consistency across customer IDs
 * Created a holistic view of customer behavior
 
-File: data/processed/customer_360.csv
+File: <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/customer_360.csv">Customer_360</a>
 
 ---
 
@@ -163,7 +163,7 @@ Steps:
 2. Scaling
 3. Prediction
 
-Output: <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/new_predictions.csv">New_Predictions</a>
+Output: <a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/new_predictions.csv">credit_consumption_predictions</a>
 
 ---
 
@@ -202,7 +202,7 @@ The strong linear pattern observed indicates that the data is highly linear, whi
 
 ## Jupyter Notebook
 
-<a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/customer_credit_consumption_regression.ipynb">customer-credit-consumption-pipeline</a>
+<a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/customer_credit_consumption_regression.ipynb">credit_consumption_regression_pipeline</a>
 
 Contains full workflow:
 
@@ -215,7 +215,7 @@ Contains full workflow:
 
 ## Model Saving using Joblib
 
-<a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/lr_model_pipeline.pkl">Joblib</a>
+<a href="https://github.com/Yashridla27/customer-credit-consumption-regression/blob/main/lr_model_pipeline.pkl">linear_regression_pipeline</a>
 
 Example:
 joblib.dump({'model': model, 'scaler': scaler}, 'model/model.joblib')
